@@ -753,3 +753,7 @@ a {
 a.hoverline:hover {
   border-bottom-color: #D9BC82 !important;
 }
+/* Animated typing text color */
+#intro.section .typing {
+  color: #D9BC82 !important;
+}
