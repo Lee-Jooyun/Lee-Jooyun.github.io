@@ -692,3 +692,63 @@ small {
     background-position-x: 30%;
   }
 }
+
+/* ====================================
+   Jooyun Lee Portfolio
+   Navy, Gold & White Theme
+   ==================================== */
+
+/* Main introduction background */
+#intro.section {
+  background: #14263E;
+}
+
+/* Gold highlight for the name */
+#intro.section .teal {
+  background-color: #D9BC82 !important;
+  color: #14263E;
+}
+
+/* Section headings */
+h3.page-title.teal {
+  background-color: #14263E !important;
+  color: #FFFFFF !important;
+}
+
+/* Navigation links and icons */
+.teal-text {
+  color: #14263E !important;
+}
+
+/* Main content links */
+a {
+  color: #14263E;
+}
+
+/* Primary button */
+.readme {
+  background: #D9BC82;
+  border-color: #D9BC82;
+  color: #14263E;
+}
+
+/* Secondary button */
+.contactme {
+  border-color: #D9BC82;
+  color: #FFFFFF;
+}
+
+.contactme:hover {
+  background: #D9BC82;
+  color: #14263E;
+}
+
+/* Profile photo border */
+.profile-pic {
+  border-color: #D9BC82;
+}
+
+/* Hover effects */
+a.hoverline:hover {
+  border-bottom-color: #D9BC82 !important;
+}
