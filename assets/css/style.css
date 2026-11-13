@@ -705,8 +705,9 @@ small {
 
 /* Gold highlight for the name */
 #intro.section .teal {
-  background-color: #D9BC82 !important;
-  color: #14263E;
+  background-color: transparent !important;
+  color: #D9BC82 !important;
+  padding: 0;
 }
 
 /* Section headings */
