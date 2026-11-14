@@ -770,12 +770,27 @@ a[href="#projects"] {
 }
 
 
-/* Education - align cards in a clean two-column grid */
+/* Education card layout */
 #education .row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
 }
 
 #education .row > .col {
-  float: none;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  float: none !important;
+}
+
+#education .card {
+  height: 100%;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  #education .row {
+    grid-template-columns: 1fr;
+  }
 }
