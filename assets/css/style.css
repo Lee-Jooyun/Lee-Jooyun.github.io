@@ -797,9 +797,13 @@ a[href="#projects"] {
 
 
 /* Skills section - Navy and Gold */
-#skills .card {
+/* Consistent gold accent for portfolio cards */
+#skills .card,
+#experience .card,
+#education .card {
   border-left: 4px solid #D9BC82;
 }
+
 
 #skills .card h4 {
   color: #14263E !important;
