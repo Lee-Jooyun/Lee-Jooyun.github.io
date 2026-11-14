@@ -794,3 +794,21 @@ a[href="#projects"] {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Skills section - Navy and Gold */
+#skills .card {
+  border-left: 4px solid #D9BC82;
+}
+
+#skills .card h4 {
+  color: #14263E !important;
+  font-size: 1.45rem;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+#skills .card li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
