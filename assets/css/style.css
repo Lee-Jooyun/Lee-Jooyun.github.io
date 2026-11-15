@@ -758,18 +758,6 @@ a.hoverline:hover {
   color: #D9BC82 !important;
 }
 
-
-/* Hide Projects section temporarily */
-#projects {
-  display: none !important;
-}
-
-/* Hide Projects links in navigation */
-a[href="#projects"] {
-  display: none !important;
-}
-
-
 /* Education card layout */
 #education .row {
   display: grid !important;
